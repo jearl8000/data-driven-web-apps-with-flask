@@ -1,0 +1,20 @@
+{%  extends "shared/_layout.html" %}
+{%  block page_title %}About PyPI demo{% endblock %}
+{% block main_content %}
+    <div class="form-container">
+        <form action="" method="POST" class="account-form">
+            <h1>Register at Pypi.mockup.org</h1>
+
+            <input type="text" placeholder=" Your name" class="form-control"/>
+            <input type="text" placeholder=" Your email address" class="form-control"/>
+            <input type="password" placeholder=" Password" class="form-control"/>
+            <button type="submit" class="btn btn-danger">Register</button>
+            <div style="clear:both;"></div>
+        </form>
+    </div>
+
+{% endblock %}
+
+{% block additional_css %}
+    <link rel="stylesheet" href="/static/css/account.css" />
+{%  endblock %}

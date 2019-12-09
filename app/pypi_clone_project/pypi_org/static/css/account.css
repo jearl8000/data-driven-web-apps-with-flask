@@ -1,0 +1,28 @@
+div.form-container {
+    padding: 50px;
+}
+
+form.account-form {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+
+    padding: 10px;
+
+    background-color: #ececec;
+    border: 1px solid #7386bf;
+    border-radius: 5px;
+}
+
+form.account-form > * {
+    margin-top: 5px;
+}
+
+form.account-form h1 {
+    text-align: center;
+}
+
+form.account-form button {
+    float: right;
+}
