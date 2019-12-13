@@ -26,3 +26,7 @@ form.account-form h1 {
 form.account-form button {
     float: right;
 }
+
+.error-msg {
+    color: #a00000;
+}
