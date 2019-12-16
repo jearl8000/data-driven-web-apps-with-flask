@@ -1,8 +1,10 @@
 {%  extends "shared/_layout.html" %}
 {%  block page_title %}About PyPI demo{% endblock %}
 {% block main_content %}
-    <h1>About Python Package Index (demo)</h1>
 
-    <p>This is a demo for a Flask/SQLAlchemy course</p>
+    <div class="page-core">
+        <h1>About Python Package Index (demo)</h1>
 
+        <p>Welcome back, {{ user.name }}!</p>
+    </div>
 {% endblock %}

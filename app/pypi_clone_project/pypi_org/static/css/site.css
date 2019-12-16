@@ -114,3 +114,7 @@ footer {
 footer a {
     color: #2495f2;
 }
+
+.page-core {
+    padding: 20px;
+}
